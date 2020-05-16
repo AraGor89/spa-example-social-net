@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/spa-example-social-net/static/css/main.33f74bb4.chunk.css",
+    "main.js": "/spa-example-social-net/static/js/main.de5dde18.chunk.js",
+    "main.js.map": "/spa-example-social-net/static/js/main.de5dde18.chunk.js.map",
+    "runtime-main.js": "/spa-example-social-net/static/js/runtime-main.d9cc94c9.js",
+    "runtime-main.js.map": "/spa-example-social-net/static/js/runtime-main.d9cc94c9.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/spa-example-social-net/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.ba7384a6.chunk.js": "/spa-example-social-net/static/js/2.ba7384a6.chunk.js",
+    "static/js/2.ba7384a6.chunk.js.map": "/spa-example-social-net/static/js/2.ba7384a6.chunk.js.map",
+    "static/css/3.ca967c55.chunk.css": "/spa-example-social-net/static/css/3.ca967c55.chunk.css",
+    "static/js/3.1d888a25.chunk.js": "/spa-example-social-net/static/js/3.1d888a25.chunk.js",
+    "static/js/3.1d888a25.chunk.js.map": "/spa-example-social-net/static/js/3.1d888a25.chunk.js.map",
+    "static/css/4.f47b0be7.chunk.css": "/spa-example-social-net/static/css/4.f47b0be7.chunk.css",
+    "static/js/4.423371b4.chunk.js": "/spa-example-social-net/static/js/4.423371b4.chunk.js",
+    "static/js/4.423371b4.chunk.js.map": "/spa-example-social-net/static/js/4.423371b4.chunk.js.map",
+    "index.html": "/spa-example-social-net/index.html",
+    "precache-manifest.b04eac23fa8c2ea0e59abbc22d9b78ad.js": "/spa-example-social-net/precache-manifest.b04eac23fa8c2ea0e59abbc22d9b78ad.js",
+    "service-worker.js": "/spa-example-social-net/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/spa-example-social-net/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/3.ca967c55.chunk.css.map": "/spa-example-social-net/static/css/3.ca967c55.chunk.css.map",
+    "static/css/4.f47b0be7.chunk.css.map": "/spa-example-social-net/static/css/4.f47b0be7.chunk.css.map",
+    "static/css/main.33f74bb4.chunk.css.map": "/spa-example-social-net/static/css/main.33f74bb4.chunk.css.map",
+    "static/js/2.ba7384a6.chunk.js.LICENSE.txt": "/spa-example-social-net/static/js/2.ba7384a6.chunk.js.LICENSE.txt",
+    "static/media/userPhoto.jpg": "/spa-example-social-net/static/media/userPhoto.6e93fe92.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d9cc94c9.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.ba7384a6.chunk.js",
+    "static/css/main.33f74bb4.chunk.css",
+    "static/js/main.de5dde18.chunk.js"
+  ]
+}
