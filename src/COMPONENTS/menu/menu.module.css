@@ -1,0 +1,30 @@
+.nav {
+  grid-area: n;
+  padding: 30px;
+}
+.item a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+}
+a:hover > * {
+  background-color: green;
+  border-radius: 5px;
+}
+.item a.activeLink {
+  color: red;
+}
+
+@media only screen and (max-width: 920px) {
+  .nav > * {
+    display: inline;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .item a {
+    font-size: 18px;
+  }
+  .item {
+    border-left: solid 2px black;
+  }
+}

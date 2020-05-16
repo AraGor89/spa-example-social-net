@@ -1,0 +1,21 @@
+.header {
+  grid-area: h;
+  background-color: green;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  width: 70%;
+  margin: auto;
+}
+@media only screen and (max-width: 1075px) {
+  .header > * {
+    font-size: 23px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .header > * {
+    font-size: 18px;
+    width: 100%;
+  }
+}

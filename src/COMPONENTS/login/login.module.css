@@ -1,0 +1,15 @@
+.loginContainer {
+  margin: 15px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.auth {
+  min-width: 20%;
+  border-radius: 5px;
+  border: 2px solid gray;
+  outline: none;
+}
+.submitButton {
+  border-radius: 5px;
+  border: 2px solid black;
+  min-width: 15%;
+}

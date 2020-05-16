@@ -1,0 +1,40 @@
+$buttonsradius: 8px;
+$buttonsColor: white;
+@mixin buttonsStyle {
+  border-radius: $buttonsradius;
+  color: $buttonsColor;
+}
+.postsContainer {
+  margin-left: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  button {
+    outline: none;
+  }
+}
+.describPhoto {
+  max-width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: $buttonsradius;
+}
+.describPhoto:hover {
+  transform: scaleX(-1);
+}
+.myReduxForm {
+  margin-top: 15px;
+}
+.addButton {
+  @include buttonsStyle();
+  background-color: green;
+}
+.resetButton {
+  @include buttonsStyle();
+  background-color: red;
+}
+.discribtionItems {
+  border-bottom: solid 2px black;
+}
+@media only screen and (max-width: 800px) {
+  .pageTitle {
+    font-size: 25px;
+  }
+}

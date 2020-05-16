@@ -1,0 +1,43 @@
+.userPhoto {
+  width: 130px;
+  border-radius: 8px;
+}
+.addressInfo {
+  margin-left: 30px;
+}
+.user {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.followButton {
+  margin-left: 2px;
+  border-bottom-right-radius: 18px;
+  background-color: green;
+  color: white;
+  border: 0px;
+  width: 10%;
+}
+.unFollowButton {
+  margin-left: 2px;
+  border-bottom-left-radius: 18px;
+  background-color: green;
+  color: white;
+  border: 0px;
+  width: 10%;
+}
+button,
+button:focus {
+  outline: none;
+}
+.usersWraper * {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+  .followButton,
+  .unFollowButton {
+    width: auto;
+    float: none;
+  }
+}

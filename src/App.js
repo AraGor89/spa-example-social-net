@@ -1,26 +1,39 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Route, Switch } from "react-router-dom";
+import { withSuspense } from "./hoc/withSuspence";
+import "./App.css";
+import Menu from "./COMPONENTS/menu";
+import NotesContainer from "./COMPONENTS/posts";
+import Header from "./COMPONENTS/header";
+import ToDoosContainer from "./COMPONENTS/toDoos";
+import Blog from "./COMPONENTS/blog";
+const withRouterUsersContainer = React.lazy(() => import("./COMPONENTS/users"));
+const LoginContainer = React.lazy(() => import("./COMPONENTS/login"));
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="appWrapper">
+      <Header className="header" />
+      <Menu className="navbar" />
+      <div className="content">
+        <Switch>
+          <Route path="/login" component={withSuspense(LoginContainer)} />
+          <Route path="/notes" render={() => <NotesContainer />} />
+          <Route
+            path="/users"
+            component={withSuspense(withRouterUsersContainer)}
+          />
+          <Route path="/todoos" component={() => <ToDoosContainer />} />
+          <Route path="/hooksPosts" component={() => <Blog />} />
+          <Route exact path="/" component={() => <NotesContainer />} />
+          <Route
+            path="*"
+            render={() => <div className="notFound"> 404 not found </div>}
+          />
+        </Switch>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
